@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Li Chao&#39;s Blog</title>
+    <title>Posts on Chao</title>
     <link>http://localhost:1313/post/</link>
-    <description>Recent content in Posts on Li Chao&#39;s Blog</description>
+    <description>Recent content in Posts on Chao</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <copyright>Li Chao</copyright>
     <lastBuildDate>Sat, 12 Jun 2021 01:09:59 +0800</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1</title>
