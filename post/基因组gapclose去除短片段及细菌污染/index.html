@@ -50,7 +50,7 @@
 <meta itemprop="name" content="基因组Gapclose、去除短片段及细菌污染">
 <meta itemprop="description" content="Tips： # 仅供 IEMB-1 用户参考。 # 进入登陆服务器页面后，所有命令可直接使用复制粘贴使用。 # 已通过基因组组装软件（如SPAdes或Megahit等"><meta itemprop="datePublished" content="2021-06-18T09:23:03&#43;08:00" />
 <meta itemprop="dateModified" content="2021-06-18T09:23:03&#43;08:00" />
-<meta itemprop="wordCount" content="176">
+<meta itemprop="wordCount" content="224">
 <meta itemprop="keywords" content="基因组过滤," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="基因组Gapclose、去除短片段及细菌污染"/>
 <meta name="twitter:description" content="Tips： # 仅供 IEMB-1 用户参考。 # 进入登陆服务器页面后，所有命令可直接使用复制粘贴使用。 # 已通过基因组组装软件（如SPAdes或Megahit等"/>
@@ -169,6 +169,8 @@
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-shell" data-lang="shell"><span class="nb">cd</span> /your genome path/
@@ -176,6 +178,8 @@
 <span class="c1"># 以`contigs.fasta`文件，去除短片段的阈值设定为500 bp为例</span>
 <span class="c1"># 运行脚本</span>
 /apps/users/andrew/littletools/Gapclose_lenBacfilter.sh contigs.fasta <span class="m">500</span>
+
+<span class="c1"># 结果获得`XX.BacFilt.fasta`文件，即为除去Gapclos、并过滤后的基因组</span>
 </code></pre></td></tr></table>
 </div>
 </div>
