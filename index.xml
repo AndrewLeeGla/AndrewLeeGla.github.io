@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Li Chao</copyright>
-    <lastBuildDate>Fri, 18 Jun 2021 09:23:03 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Jun 2021 22:34:34 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>搜寻基因组端粒结构</title>
+      <link>http://localhost:1313/post/%E6%90%9C%E5%AF%BB%E5%9F%BA%E5%9B%A0%E7%BB%84%E7%AB%AF%E7%B2%92%E7%BB%93%E6%9E%84/</link>
+      <pubDate>Sat, 19 Jun 2021 22:34:34 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/%E6%90%9C%E5%AF%BB%E5%9F%BA%E5%9B%A0%E7%BB%84%E7%AB%AF%E7%B2%92%E7%BB%93%E6%9E%84/</guid>
+      <description>Tips： # 仅供 IEMB-1 用户参考。 # 进入登陆服务器页面后，所有命令可直接使用复制粘贴使用。 # 已通过基因组组装软件（如SPAdes或Megahit等</description>
+    </item>
+    
     <item>
       <title>基因组Gapclose、去除短片段及细菌污染</title>
       <link>http://localhost:1313/post/%E5%9F%BA%E5%9B%A0%E7%BB%84gapclose%E5%8E%BB%E9%99%A4%E7%9F%AD%E7%89%87%E6%AE%B5%E5%8F%8A%E7%BB%86%E8%8F%8C%E6%B1%A1%E6%9F%93/</link>
