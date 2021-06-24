@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>基因家族扩张基因KEGG富集 - Chao</title>
+  <title>基因组结合端粒信息统计GCdepth - Chao</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="Li Chao" /><meta name="description" content="Tips： # 仅供 IEMB-1 用户参考。 # 进入登陆服务器页面后，所有命令可直接使用复制粘贴使用。 # 默认已完成蛋白组KEGG注释，需要用到其中XX.keg" /><meta name="keywords" content="Hugo, theme, even" />
+<meta name="author" content="Li Chao" /><meta name="description" content="Tips： # 仅供 IEMB-1 用户参考。 # 进入登陆服务器页面后，所有命令可直接使用复制粘贴使用。 # 由于内置比对程序，第一步的脚本仅限深夜登录服务器空载时" /><meta name="keywords" content="Hugo, theme, even" />
 
 
 
@@ -26,7 +26,7 @@
 <meta name="generator" content="Hugo 0.83.1 with theme even" />
 
 
-<link rel="canonical" href="http://localhost:1313/post/%E5%9F%BA%E5%9B%A0%E5%AE%B6%E6%97%8F%E6%89%A9%E5%BC%A0%E5%9F%BA%E5%9B%A0kegg%E5%AF%8C%E9%9B%86/" />
+<link rel="canonical" href="http://localhost:1313/post/%E5%9F%BA%E5%9B%A0%E7%BB%84%E7%BB%93%E5%90%88%E7%AB%AF%E7%B2%92%E4%BF%A1%E6%81%AF%E7%BB%9F%E8%AE%A1gcdepth/" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -39,21 +39,21 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 
 
-<meta property="og:title" content="基因家族扩张基因KEGG富集" />
-<meta property="og:description" content="Tips： # 仅供 IEMB-1 用户参考。 # 进入登陆服务器页面后，所有命令可直接使用复制粘贴使用。 # 默认已完成蛋白组KEGG注释，需要用到其中XX.keg" />
+<meta property="og:title" content="基因组结合端粒信息统计GCdepth" />
+<meta property="og:description" content="Tips： # 仅供 IEMB-1 用户参考。 # 进入登陆服务器页面后，所有命令可直接使用复制粘贴使用。 # 由于内置比对程序，第一步的脚本仅限深夜登录服务器空载时" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/post/%E5%9F%BA%E5%9B%A0%E5%AE%B6%E6%97%8F%E6%89%A9%E5%BC%A0%E5%9F%BA%E5%9B%A0kegg%E5%AF%8C%E9%9B%86/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2021-06-23T20:46:17&#43;08:00" />
-<meta property="article:modified_time" content="2021-06-23T20:46:17&#43;08:00" />
+<meta property="og:url" content="http://localhost:1313/post/%E5%9F%BA%E5%9B%A0%E7%BB%84%E7%BB%93%E5%90%88%E7%AB%AF%E7%B2%92%E4%BF%A1%E6%81%AF%E7%BB%9F%E8%AE%A1gcdepth/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2021-06-24T18:22:59&#43;08:00" />
+<meta property="article:modified_time" content="2021-06-24T18:22:59&#43;08:00" />
 
 
-<meta itemprop="name" content="基因家族扩张基因KEGG富集">
-<meta itemprop="description" content="Tips： # 仅供 IEMB-1 用户参考。 # 进入登陆服务器页面后，所有命令可直接使用复制粘贴使用。 # 默认已完成蛋白组KEGG注释，需要用到其中XX.keg"><meta itemprop="datePublished" content="2021-06-23T20:46:17&#43;08:00" />
-<meta itemprop="dateModified" content="2021-06-23T20:46:17&#43;08:00" />
-<meta itemprop="wordCount" content="237">
-<meta itemprop="keywords" content="KEGG," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="基因家族扩张基因KEGG富集"/>
-<meta name="twitter:description" content="Tips： # 仅供 IEMB-1 用户参考。 # 进入登陆服务器页面后，所有命令可直接使用复制粘贴使用。 # 默认已完成蛋白组KEGG注释，需要用到其中XX.keg"/>
+<meta itemprop="name" content="基因组结合端粒信息统计GCdepth">
+<meta itemprop="description" content="Tips： # 仅供 IEMB-1 用户参考。 # 进入登陆服务器页面后，所有命令可直接使用复制粘贴使用。 # 由于内置比对程序，第一步的脚本仅限深夜登录服务器空载时"><meta itemprop="datePublished" content="2021-06-24T18:22:59&#43;08:00" />
+<meta itemprop="dateModified" content="2021-06-24T18:22:59&#43;08:00" />
+<meta itemprop="wordCount" content="738">
+<meta itemprop="keywords" content="GCdepth," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="基因组结合端粒信息统计GCdepth"/>
+<meta name="twitter:description" content="Tips： # 仅供 IEMB-1 用户参考。 # 进入登陆服务器页面后，所有命令可直接使用复制粘贴使用。 # 由于内置比对程序，第一步的脚本仅限深夜登录服务器空载时"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -126,13 +126,12 @@
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">基因家族扩张基因KEGG富集</h1>
+      <h1 class="post-title">基因组结合端粒信息统计GCdepth</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 2021-06-23 </span>
+        <span class="post-time"> 2021-06-24 </span>
         <div class="post-category">
-            <a href="/categories/%E5%9F%BA%E5%9B%A0%E5%AE%B6%E6%97%8F/"> 基因家族 </a>
-            <a href="/categories/%E5%AF%8C%E9%9B%86%E5%88%86%E6%9E%90/"> 富集分析 </a>
+            <a href="/categories/%E5%9F%BA%E5%9B%A0%E7%BB%84%E7%BB%84%E8%A3%85/"> 基因组组装 </a>
             </div>
         <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> times read </span>
       </div>
@@ -148,7 +147,7 @@
         <li>
           <ul>
             <li><a href="#tips">Tips：</a></li>
-            <li><a href="#1对发生扩张的基因进行kegg-pathway富集分析">1.	对发生扩张的基因进行KEGG Pathway富集分析</a></li>
+            <li><a href="#1结合端粒信息统计基因组gcdepth">1.	结合端粒信息，统计基因组<code>GCdepth</code></a></li>
           </ul>
         </li>
       </ul>
@@ -161,29 +160,42 @@
       <h3 id="tips">Tips：</h3>
 <p># 仅供 <strong>IEMB-1</strong> 用户参考。</p>
 <p># 进入<strong>登陆服务器页面</strong>后，所有命令可直接使用复制粘贴使用。</p>
-<p># 默认已完成<a href="https://andrewleegla.github.io/post/%E8%9B%8B%E7%99%BD%E7%BB%84kegg%E6%B3%A8%E9%87%8A/">蛋白组KEGG注释</a>，需要用到其中<code>XX.kegg.map.txt.map</code>文件。</p>
-<p># 默认已完成<a href="https://andrewleegla.github.io/post/%E5%9F%BA%E5%9B%A0%E5%AE%B6%E6%97%8F%E6%89%A9%E5%BC%A0%E5%9F%BA%E5%9B%A0go%E5%AF%8C%E9%9B%86/">基因家族扩张基因GO富集</a>，需要用其中的<code>gene.id</code>文件。</p>
-<h3 id="1对发生扩张的基因进行kegg-pathway富集分析">1.	对发生扩张的基因进行KEGG Pathway富集分析</h3>
+<p># 由于内置比对程序，<strong>第一步的脚本</strong>仅限深夜登录服务器空载时运行！不要有侥幸心理，杨老师 is watching you！</p>
+<p># 在<strong>登陆服务器</strong>运行<strong>第一步的脚本</strong>之前，<strong>一定</strong>要先运行<code>top</code>命令看一下服务器负载状态，<strong>一定</strong>不要在<strong>登录服务器CPU负载率40%<strong>以上时硬跑！服务器很</strong>娇<font color='red'>贵</font></strong>！</p>
+<h3 id="1结合端粒信息统计基因组gcdepth">1.	结合端粒信息，统计基因组<code>GCdepth</code></h3>
+<p>推荐使用<a href="https://andrewleegla.github.io/post/%E5%9F%BA%E5%9B%A0%E7%BB%84gapclose%E5%8E%BB%E9%99%A4%E7%9F%AD%E7%89%87%E6%AE%B5%E5%8F%8A%E7%BB%86%E8%8F%8C%E6%B1%A1%E6%9F%93/">基因组Gapclose、去除短片段及细菌污染</a>的<strong>中间文件</strong><code>XX.scaffolds.gt500.fasta</code>作为输入的基因组文件。如果端粒结构未知，可以先尝试进行<a href="https://andrewleegla.github.io/post/%E6%90%9C%E5%AF%BB%E5%9F%BA%E5%9B%A0%E7%BB%84%E7%AB%AF%E7%B2%92%E7%BB%93%E6%9E%84/">搜寻基因组端粒结构</a>。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span><span class="lnt">8
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">ln -s /your/path/XX.kegg.map.txt.map ./
-ln -s /your/path/gene.id ./
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="c1"># ln -s yourReads.R1.fastq ./</span>
+<span class="c1"># ln -s yourReads.R2.fastq ./</span>
+<span class="c1"># ln -s yourAssembly.fasta ./</span>
 
-<span class="c1"># 以输出结果的前缀为&#39;ABC&#39;为例</span>
-<span class="c1"># 运行脚本</span>
-/apps/users/andrew/littletools/GO/KEGG_Enrichment.sh ABC XX.kegg.map.txt.map
+<span class="c1"># 以&#39;XX.scaffolds.gt500.fasta&#39;作为输入基因组文件为例</span>
+<span class="c1"># 5&#39;端的端粒结构为CCCCAAAA，3&#39;端端粒结构为TTTTGGGG</span>
+<span class="c1"># 二代双端测序数据文件分别为&#39;reads.R1.fastq&#39;和&#39;reads.R2.fastq&#39;</span>
+<span class="c1"># 二代双端测序数据也可以是压缩文件格式如&#39;reads.R1.fastq.gz&#39;和&#39;reads.R2.fastq.gz&#39;</span>
+<span class="c1"># 使用&#39;nohup&#39;命令运行脚本</span>
+nohup /apps/users/andrew/littletools/assembly_GCdepth_stat.sh XX.scaffolds.gt500.fasta CCCCAAAA TTTTGGGG reads.R1.fastq reads.R2.fastq <span class="p">&amp;</span>
 
-<span class="c1"># 图片文件保存在&#39;KEGG_Enrich&#39;文件夹中，下载到本地查看</span>
+<span class="c1"># 获得5幅&#39;png&#39;格式的GCdepth组合散点图，下载到本地查看</span>
+<span class="c1"># 图片中可以根据颜色区分包含端粒的情况，主图中的圆圈表示点的密度</span>
+<span class="c1"># 综合GCdepth信息，指定GC%和depth的过滤标准（即分别设定一个cutoff值，将GC%高于GC%的cutoff值的contigs，和depth低于depth的cutoff的contigs删掉）</span>
 </code></pre></td></tr></table>
 </div>
 </div>
@@ -197,7 +209,7 @@ ln -s /your/path/gene.id ./
   <p class="copyright-item">
     <span class="item-title">LastMod</span>
     <span class="item-content">
-        2021-06-23
+        2021-06-24
         
     </span>
   </p>
@@ -206,16 +218,12 @@ ln -s /your/path/gene.id ./
 </div>
 <footer class="post-footer">
       <div class="post-tags">
-          <a href="/tags/kegg/">KEGG</a>
+          <a href="/tags/gcdepth/">GCdepth</a>
           </div>
       <nav class="post-nav">
-        <a class="prev" href="/post/%E5%9F%BA%E5%9B%A0%E7%BB%84%E7%BB%93%E5%90%88%E7%AB%AF%E7%B2%92%E4%BF%A1%E6%81%AF%E7%BB%9F%E8%AE%A1gcdepth/">
-            <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">基因组结合端粒信息统计GCdepth</span>
-            <span class="prev-text nav-mobile">Prev</span>
-          </a>
-        <a class="next" href="/post/%E8%9B%8B%E7%99%BD%E7%BB%84kegg%E6%B3%A8%E9%87%8A/">
-            <span class="next-text nav-default">蛋白组KEGG注释</span>
+        
+        <a class="next" href="/post/%E5%9F%BA%E5%9B%A0%E5%AE%B6%E6%97%8F%E6%89%A9%E5%BC%A0%E5%9F%BA%E5%9B%A0kegg%E5%AF%8C%E9%9B%86/">
+            <span class="next-text nav-default">基因家族扩张基因KEGG富集</span>
             <span class="next-text nav-mobile">Next</span>
             <i class="iconfont icon-right"></i>
           </a>
