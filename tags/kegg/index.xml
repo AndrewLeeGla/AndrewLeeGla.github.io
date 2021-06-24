@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Li Chao</copyright>
-    <lastBuildDate>Tue, 22 Jun 2021 20:46:17 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/kegg/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 23 Jun 2021 20:46:17 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/kegg/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>基因家族扩张基因KEGG富集</title>
+      <link>http://localhost:1313/post/%E5%9F%BA%E5%9B%A0%E5%AE%B6%E6%97%8F%E6%89%A9%E5%BC%A0%E5%9F%BA%E5%9B%A0kegg%E5%AF%8C%E9%9B%86/</link>
+      <pubDate>Wed, 23 Jun 2021 20:46:17 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/%E5%9F%BA%E5%9B%A0%E5%AE%B6%E6%97%8F%E6%89%A9%E5%BC%A0%E5%9F%BA%E5%9B%A0kegg%E5%AF%8C%E9%9B%86/</guid>
+      <description>Tips： # 仅供 IEMB-1 用户参考。 # 进入登陆服务器页面后，所有命令可直接使用复制粘贴使用。 # 默认已完成蛋白组KEGG注释，需要用到其中XX.keg</description>
+    </item>
+    
     <item>
       <title>蛋白组KEGG注释</title>
       <link>http://localhost:1313/post/%E8%9B%8B%E7%99%BD%E7%BB%84kegg%E6%B3%A8%E9%87%8A/</link>
