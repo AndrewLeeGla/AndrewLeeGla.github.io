@@ -3,35 +3,49 @@
   
   <url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2021-06-24T18:22:59+08:00</lastmod>
+    <lastmod>2021-06-29T14:14:41+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2021-06-24T18:22:59+08:00</lastmod>
+    <lastmod>2021-06-29T14:14:41+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://localhost:1313/tags/gcdepth/</loc>
-    <lastmod>2021-06-24T18:22:59+08:00</lastmod>
+    <lastmod>2021-06-29T14:14:41+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://localhost:1313/post/</loc>
-    <lastmod>2021-06-24T18:22:59+08:00</lastmod>
+    <lastmod>2021-06-29T14:14:41+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2021-06-24T18:22:59+08:00</lastmod>
+    <lastmod>2021-06-29T14:14:41+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/%E5%9F%BA%E5%9B%A0%E7%BB%84%E5%B7%B2%E6%9C%89depth%E6%96%87%E4%BB%B6%E7%BB%93%E5%90%88%E7%AB%AF%E7%B2%92%E4%BF%A1%E6%81%AF%E7%BB%9F%E8%AE%A1gcdepth/</loc>
+    <lastmod>2021-06-29T14:14:41+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/%E5%9F%BA%E5%9B%A0%E7%BB%84%E8%AF%84%E4%BC%B0/</loc>
+    <lastmod>2021-06-29T14:14:41+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

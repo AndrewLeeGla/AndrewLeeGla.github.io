@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Li Chao</copyright>
-    <lastBuildDate>Thu, 24 Jun 2021 18:22:59 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Jun 2021 14:14:41 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>基因组已有Depth文件，结合端粒信息统计GCdepth</title>
+      <link>http://localhost:1313/post/%E5%9F%BA%E5%9B%A0%E7%BB%84%E5%B7%B2%E6%9C%89depth%E6%96%87%E4%BB%B6%E7%BB%93%E5%90%88%E7%AB%AF%E7%B2%92%E4%BF%A1%E6%81%AF%E7%BB%9F%E8%AE%A1gcdepth/</link>
+      <pubDate>Tue, 29 Jun 2021 14:14:41 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/%E5%9F%BA%E5%9B%A0%E7%BB%84%E5%B7%B2%E6%9C%89depth%E6%96%87%E4%BB%B6%E7%BB%93%E5%90%88%E7%AB%AF%E7%B2%92%E4%BF%A1%E6%81%AF%E7%BB%9F%E8%AE%A1gcdepth/</guid>
+      <description>Tips： # 仅供 IEMB-1 用户参考。 # 进入登陆服务器页面后，所有命令可直接使用复制粘贴使用。 # 默认已经有通过基因组结合端粒信息统计GCdepth获得</description>
+    </item>
+    
     <item>
       <title>基因组结合端粒信息统计GCdepth</title>
       <link>http://localhost:1313/post/%E5%9F%BA%E5%9B%A0%E7%BB%84%E7%BB%93%E5%90%88%E7%AB%AF%E7%B2%92%E4%BF%A1%E6%81%AF%E7%BB%9F%E8%AE%A1gcdepth/</link>
