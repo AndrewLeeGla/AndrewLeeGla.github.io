@@ -51,7 +51,7 @@
 <meta itemprop="description" content="Tips： # 仅供 IEMB-1 用户参考。 # 进入登陆服务器页面后，所有命令可直接使用复制粘贴使用。 # 默认已通过基因组组装及过滤（3）：结合端粒信息统计GC"><meta itemprop="datePublished" content="2021-06-30T13:46:30&#43;08:00" />
 <meta itemprop="dateModified" content="2021-06-30T13:46:30&#43;08:00" />
 <meta itemprop="wordCount" content="1194">
-<meta itemprop="keywords" content="基因组过滤," /><meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="基因组过滤,线粒体序列过滤,细菌序列过滤,GCdepth过滤," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="基因组组装及过滤（4）：结合端粒信息过滤线粒体、细菌、高GC、低depth的序列"/>
 <meta name="twitter:description" content="Tips： # 仅供 IEMB-1 用户参考。 # 进入登陆服务器页面后，所有命令可直接使用复制粘贴使用。 # 默认已通过基因组组装及过滤（3）：结合端粒信息统计GC"/>
 
@@ -161,7 +161,7 @@
 <p># 仅供 <strong>IEMB-1</strong> 用户参考。</p>
 <p># 进入<strong>登陆服务器页面</strong>后，所有命令可直接使用复制粘贴使用。</p>
 <p># 默认已通过<a href="https://andrewleegla.github.io/post/%E5%9F%BA%E5%9B%A0%E7%BB%84%E7%BB%93%E5%90%88%E7%AB%AF%E7%B2%92%E4%BF%A1%E6%81%AF%E7%BB%9F%E8%AE%A1gcdepth/">基因组组装及过滤（3）：结合端粒信息统计GCdepth</a>或<a href="https://andrewleegla.github.io/post/%E5%9F%BA%E5%9B%A0%E7%BB%84%E5%B7%B2%E6%9C%89depth%E6%96%87%E4%BB%B6%E7%BB%93%E5%90%88%E7%AB%AF%E7%B2%92%E4%BF%A1%E6%81%AF%E7%BB%9F%E8%AE%A1gcdepth/">基因组评估（2）：已有Depth文件，结合端粒信息统计GCdepth</a>获得了当前基因组的GCdepth统计图。</p>
-<p># 不要修改脚本生成文件的文件名，否则会导致脚本无法识别文件的问题。</p>
+<p># 不要修改脚本生成文件的文件名，可能会导致脚本无法识别文件的问题。</p>
 <h3 id="1结合端粒信息过滤基因组">1.	结合端粒信息，过滤基因组</h3>
 <p>以下过滤仅针对没有端粒的contigs进行。依次根据线粒体序列比对、细菌序列比对（如果当前工作目录中提供了<a href="https://andrewleegla.github.io/post/%E5%9F%BA%E5%9B%A0%E7%BB%84gapclose%E5%8E%BB%E9%99%A4%E7%9F%AD%E7%89%87%E6%AE%B5%E5%8F%8A%E7%BB%86%E8%8F%8C%E6%B1%A1%E6%9F%93/">基因组组装及过滤（2）：Gapclose、去除短片段及细菌污染</a>产生的<code>XX.gt500.blastn_111Gbacteria.tab</code>可以自动检测到，并省略细菌比对步骤）、设定的<code>GCdepth cutoff</code>值对基因组进行过滤。</p>
 <p><code>GCdepth cutoff</code>值的设定，可以根据<a href="https://andrewleegla.github.io/post/%E5%9F%BA%E5%9B%A0%E7%BB%84%E7%BB%93%E5%90%88%E7%AB%AF%E7%B2%92%E4%BF%A1%E6%81%AF%E7%BB%9F%E8%AE%A1gcdepth/">基因组组装及过滤（3）：结合端粒信息统计GCdepth</a>或<a href="https://andrewleegla.github.io/post/%E5%9F%BA%E5%9B%A0%E7%BB%84%E5%B7%B2%E6%9C%89depth%E6%96%87%E4%BB%B6%E7%BB%93%E5%90%88%E7%AB%AF%E7%B2%92%E4%BF%A1%E6%81%AF%E7%BB%9F%E8%AE%A1gcdepth/">基因组评估（2）：已有Depth文件，结合端粒信息统计GCdepth</a>获得的当前基因组的GCdepth统计图辅助确定。</p>
@@ -236,6 +236,9 @@
 <footer class="post-footer">
       <div class="post-tags">
           <a href="/tags/%E5%9F%BA%E5%9B%A0%E7%BB%84%E8%BF%87%E6%BB%A4/">基因组过滤</a>
+          <a href="/tags/%E7%BA%BF%E7%B2%92%E4%BD%93%E5%BA%8F%E5%88%97%E8%BF%87%E6%BB%A4/">线粒体序列过滤</a>
+          <a href="/tags/%E7%BB%86%E8%8F%8C%E5%BA%8F%E5%88%97%E8%BF%87%E6%BB%A4/">细菌序列过滤</a>
+          <a href="/tags/gcdepth%E8%BF%87%E6%BB%A4/">GCdepth过滤</a>
           </div>
       <nav class="post-nav">
         

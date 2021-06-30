@@ -50,7 +50,7 @@
 <meta itemprop="name" content="基因组组装及过滤（3）：结合端粒信息统计GCdepth">
 <meta itemprop="description" content="Tips： # 仅供 IEMB-1 用户参考。 # 进入登陆服务器页面后，所有命令可直接使用复制粘贴使用。 # 由于内置比对程序，第一步的脚本仅限深夜登录服务器空载时"><meta itemprop="datePublished" content="2021-06-24T18:22:59&#43;08:00" />
 <meta itemprop="dateModified" content="2021-06-24T18:22:59&#43;08:00" />
-<meta itemprop="wordCount" content="759">
+<meta itemprop="wordCount" content="792">
 <meta itemprop="keywords" content="GCdepth," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="基因组组装及过滤（3）：结合端粒信息统计GCdepth"/>
 <meta name="twitter:description" content="Tips： # 仅供 IEMB-1 用户参考。 # 进入登陆服务器页面后，所有命令可直接使用复制粘贴使用。 # 由于内置比对程序，第一步的脚本仅限深夜登录服务器空载时"/>
@@ -162,6 +162,7 @@
 <p># 进入<strong>登陆服务器页面</strong>后，所有命令可直接使用复制粘贴使用。</p>
 <p># 由于内置比对程序，<strong>第一步的脚本</strong>仅限深夜登录服务器空载时运行！不要有侥幸心理，杨老师 is watching you！</p>
 <p># 在<strong>登陆服务器</strong>运行<strong>第一步的脚本</strong>之前，<strong>一定</strong>要先运行<code>top</code>命令看一下服务器负载状态，<strong>一定</strong>不要在<strong>登录服务器CPU负载率40%<strong>以上时硬跑！服务器很</strong>娇<font color='red'>贵</font></strong>！</p>
+<p># 不要修改脚本生成文件的文件名，可能会导致脚本无法识别文件的问题。</p>
 <h3 id="1结合端粒信息统计基因组gcdepth">1.	结合端粒信息，统计基因组<code>GCdepth</code></h3>
 <p>推荐使用<a href="https://andrewleegla.github.io/post/%E5%9F%BA%E5%9B%A0%E7%BB%84gapclose%E5%8E%BB%E9%99%A4%E7%9F%AD%E7%89%87%E6%AE%B5%E5%8F%8A%E7%BB%86%E8%8F%8C%E6%B1%A1%E6%9F%93/">基因组组装及过滤（2）：Gapclose、去除短片段及细菌污染</a>的<strong>中间文件</strong><code>XX.scaffolds.gt500.fasta</code>作为输入的基因组文件。如果端粒结构未知，可以先尝试进行<a href="https://andrewleegla.github.io/post/%E6%90%9C%E5%AF%BB%E5%9F%BA%E5%9B%A0%E7%BB%84%E7%AB%AF%E7%B2%92%E7%BB%93%E6%9E%84/">基因组组装及过滤（1）：搜寻基因组端粒结构</a>。</p>
 <div class="highlight"><div class="chroma">
