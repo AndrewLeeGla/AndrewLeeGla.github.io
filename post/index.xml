@@ -7,76 +7,85 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Li Chao</copyright>
-    <lastBuildDate>Tue, 29 Jun 2021 14:14:41 +0800</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Jun 2021 13:46:30 +0800</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>基因组已有Depth文件，结合端粒信息统计GCdepth</title>
-      <link>http://localhost:1313/post/%E5%9F%BA%E5%9B%A0%E7%BB%84%E5%B7%B2%E6%9C%89depth%E6%96%87%E4%BB%B6%E7%BB%93%E5%90%88%E7%AB%AF%E7%B2%92%E4%BF%A1%E6%81%AF%E7%BB%9F%E8%AE%A1gcdepth/</link>
-      <pubDate>Tue, 29 Jun 2021 14:14:41 +0800</pubDate>
+      <title>基因组组装及过滤（4）：结合端粒信息过滤线粒体、细菌、高GC、低depth的序列</title>
+      <link>http://localhost:1313/post/%E5%9F%BA%E5%9B%A0%E7%BB%84%E7%BB%84%E8%A3%85%E5%8F%8A%E8%BF%87%E6%BB%A44%E7%BB%93%E5%90%88%E7%AB%AF%E7%B2%92%E4%BF%A1%E6%81%AF%E8%BF%87%E6%BB%A4%E7%BA%BF%E7%B2%92%E4%BD%93%E7%BB%86%E8%8F%8C%E9%AB%98gc%E4%BD%8Edepth%E7%9A%84%E5%BA%8F%E5%88%97/</link>
+      <pubDate>Wed, 30 Jun 2021 13:46:30 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/%E5%9F%BA%E5%9B%A0%E7%BB%84%E5%B7%B2%E6%9C%89depth%E6%96%87%E4%BB%B6%E7%BB%93%E5%90%88%E7%AB%AF%E7%B2%92%E4%BF%A1%E6%81%AF%E7%BB%9F%E8%AE%A1gcdepth/</guid>
-      <description>Tips： # 仅供 IEMB-1 用户参考。 # 进入登陆服务器页面后，所有命令可直接使用复制粘贴使用。 # 默认已经有通过基因组结合端粒信息统计GCdepth获得</description>
+      <guid>http://localhost:1313/post/%E5%9F%BA%E5%9B%A0%E7%BB%84%E7%BB%84%E8%A3%85%E5%8F%8A%E8%BF%87%E6%BB%A44%E7%BB%93%E5%90%88%E7%AB%AF%E7%B2%92%E4%BF%A1%E6%81%AF%E8%BF%87%E6%BB%A4%E7%BA%BF%E7%B2%92%E4%BD%93%E7%BB%86%E8%8F%8C%E9%AB%98gc%E4%BD%8Edepth%E7%9A%84%E5%BA%8F%E5%88%97/</guid>
+      <description>Tips： # 仅供 IEMB-1 用户参考。 # 进入登陆服务器页面后，所有命令可直接使用复制粘贴使用。 # 默认已通过基因组组装及过滤（3）：结合端粒信息统计GC</description>
     </item>
     
     <item>
-      <title>基因组结合端粒信息统计GCdepth</title>
-      <link>http://localhost:1313/post/%E5%9F%BA%E5%9B%A0%E7%BB%84%E7%BB%93%E5%90%88%E7%AB%AF%E7%B2%92%E4%BF%A1%E6%81%AF%E7%BB%9F%E8%AE%A1gcdepth/</link>
+      <title>基因组评估（2）：已有Depth文件，结合端粒信息统计GCdepth</title>
+      <link>http://localhost:1313/post/%E5%9F%BA%E5%9B%A0%E7%BB%84%E8%AF%84%E4%BC%B02%E5%B7%B2%E6%9C%89depth%E6%96%87%E4%BB%B6%E7%BB%93%E5%90%88%E7%AB%AF%E7%B2%92%E4%BF%A1%E6%81%AF%E7%BB%9F%E8%AE%A1gcdepth/</link>
+      <pubDate>Tue, 29 Jun 2021 14:14:41 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/%E5%9F%BA%E5%9B%A0%E7%BB%84%E8%AF%84%E4%BC%B02%E5%B7%B2%E6%9C%89depth%E6%96%87%E4%BB%B6%E7%BB%93%E5%90%88%E7%AB%AF%E7%B2%92%E4%BF%A1%E6%81%AF%E7%BB%9F%E8%AE%A1gcdepth/</guid>
+      <description>Tips： # 仅供 IEMB-1 用户参考。 # 进入登陆服务器页面后，所有命令可直接使用复制粘贴使用。 # 默认已经有通过基因组组装及过滤（3）：结合端粒信息统计</description>
+    </item>
+    
+    <item>
+      <title>基因组组装及过滤（3）：结合端粒信息统计GCdepth</title>
+      <link>http://localhost:1313/post/%E5%9F%BA%E5%9B%A0%E7%BB%84%E7%BB%84%E8%A3%85%E5%8F%8A%E8%BF%87%E6%BB%A43%E7%BB%93%E5%90%88%E7%AB%AF%E7%B2%92%E4%BF%A1%E6%81%AF%E7%BB%9F%E8%AE%A1gcdepth/</link>
       <pubDate>Thu, 24 Jun 2021 18:22:59 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/%E5%9F%BA%E5%9B%A0%E7%BB%84%E7%BB%93%E5%90%88%E7%AB%AF%E7%B2%92%E4%BF%A1%E6%81%AF%E7%BB%9F%E8%AE%A1gcdepth/</guid>
+      <guid>http://localhost:1313/post/%E5%9F%BA%E5%9B%A0%E7%BB%84%E7%BB%84%E8%A3%85%E5%8F%8A%E8%BF%87%E6%BB%A43%E7%BB%93%E5%90%88%E7%AB%AF%E7%B2%92%E4%BF%A1%E6%81%AF%E7%BB%9F%E8%AE%A1gcdepth/</guid>
       <description>Tips： # 仅供 IEMB-1 用户参考。 # 进入登陆服务器页面后，所有命令可直接使用复制粘贴使用。 # 由于内置比对程序，第一步的脚本仅限深夜登录服务器空载时</description>
     </item>
     
     <item>
-      <title>基因家族扩张基因KEGG富集</title>
-      <link>http://localhost:1313/post/%E5%9F%BA%E5%9B%A0%E5%AE%B6%E6%97%8F%E6%89%A9%E5%BC%A0%E5%9F%BA%E5%9B%A0kegg%E5%AF%8C%E9%9B%86/</link>
+      <title>基因家族扩张基因分析（2）：KEGG富集</title>
+      <link>http://localhost:1313/post/%E5%9F%BA%E5%9B%A0%E5%AE%B6%E6%97%8F%E6%89%A9%E5%BC%A0%E5%9F%BA%E5%9B%A0%E5%88%86%E6%9E%902kegg%E5%AF%8C%E9%9B%86/</link>
       <pubDate>Wed, 23 Jun 2021 20:46:17 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/%E5%9F%BA%E5%9B%A0%E5%AE%B6%E6%97%8F%E6%89%A9%E5%BC%A0%E5%9F%BA%E5%9B%A0kegg%E5%AF%8C%E9%9B%86/</guid>
-      <description>Tips： # 仅供 IEMB-1 用户参考。 # 进入登陆服务器页面后，所有命令可直接使用复制粘贴使用。 # 默认已完成蛋白组KEGG注释，需要用到其中XX.keg</description>
+      <guid>http://localhost:1313/post/%E5%9F%BA%E5%9B%A0%E5%AE%B6%E6%97%8F%E6%89%A9%E5%BC%A0%E5%9F%BA%E5%9B%A0%E5%88%86%E6%9E%902kegg%E5%AF%8C%E9%9B%86/</guid>
+      <description>Tips： # 仅供 IEMB-1 用户参考。 # 进入登陆服务器页面后，所有命令可直接使用复制粘贴使用。 # 默认已完成功能注释（1）：蛋白组KEGG注释，需要用到</description>
     </item>
     
     <item>
-      <title>蛋白组KEGG注释</title>
-      <link>http://localhost:1313/post/%E8%9B%8B%E7%99%BD%E7%BB%84kegg%E6%B3%A8%E9%87%8A/</link>
+      <title>功能注释（1）：蛋白组KEGG注释</title>
+      <link>http://localhost:1313/post/%E5%8A%9F%E8%83%BD%E6%B3%A8%E9%87%8A1%E8%9B%8B%E7%99%BD%E7%BB%84kegg%E6%B3%A8%E9%87%8A/</link>
       <pubDate>Tue, 22 Jun 2021 20:46:17 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/%E8%9B%8B%E7%99%BD%E7%BB%84kegg%E6%B3%A8%E9%87%8A/</guid>
+      <guid>http://localhost:1313/post/%E5%8A%9F%E8%83%BD%E6%B3%A8%E9%87%8A1%E8%9B%8B%E7%99%BD%E7%BB%84kegg%E6%B3%A8%E9%87%8A/</guid>
       <description>Tips： # 仅供 IEMB-1 用户参考。 # 进入登陆服务器页面后，所有命令可直接使用复制粘贴使用。 # 实测~3M蛋白组数据，含~8,000条蛋白序列，完成K</description>
     </item>
     
     <item>
-      <title>搜寻基因组端粒结构</title>
-      <link>http://localhost:1313/post/%E6%90%9C%E5%AF%BB%E5%9F%BA%E5%9B%A0%E7%BB%84%E7%AB%AF%E7%B2%92%E7%BB%93%E6%9E%84/</link>
+      <title>基因组组装及过滤（1）：搜寻基因组端粒结构</title>
+      <link>http://localhost:1313/post/%E5%9F%BA%E5%9B%A0%E7%BB%84%E7%BB%84%E8%A3%85%E5%8F%8A%E8%BF%87%E6%BB%A41%E6%90%9C%E5%AF%BB%E5%9F%BA%E5%9B%A0%E7%BB%84%E7%AB%AF%E7%B2%92%E7%BB%93%E6%9E%84/</link>
       <pubDate>Sat, 19 Jun 2021 22:34:34 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/%E6%90%9C%E5%AF%BB%E5%9F%BA%E5%9B%A0%E7%BB%84%E7%AB%AF%E7%B2%92%E7%BB%93%E6%9E%84/</guid>
+      <guid>http://localhost:1313/post/%E5%9F%BA%E5%9B%A0%E7%BB%84%E7%BB%84%E8%A3%85%E5%8F%8A%E8%BF%87%E6%BB%A41%E6%90%9C%E5%AF%BB%E5%9F%BA%E5%9B%A0%E7%BB%84%E7%AB%AF%E7%B2%92%E7%BB%93%E6%9E%84/</guid>
       <description>Tips： # 仅供 IEMB-1 用户参考。 # 进入登陆服务器页面后，所有命令可直接使用复制粘贴使用。 # 已通过基因组组装软件（如SPAdes或Megahit等</description>
     </item>
     
     <item>
-      <title>基因组Gapclose、去除短片段及细菌污染</title>
-      <link>http://localhost:1313/post/%E5%9F%BA%E5%9B%A0%E7%BB%84gapclose%E5%8E%BB%E9%99%A4%E7%9F%AD%E7%89%87%E6%AE%B5%E5%8F%8A%E7%BB%86%E8%8F%8C%E6%B1%A1%E6%9F%93/</link>
+      <title>基因组组装及过滤（2）：Gapclose、去除短片段及细菌污染</title>
+      <link>http://localhost:1313/post/%E5%9F%BA%E5%9B%A0%E7%BB%84%E7%BB%84%E8%A3%85%E5%8F%8A%E8%BF%87%E6%BB%A42gapclose%E5%8E%BB%E9%99%A4%E7%9F%AD%E7%89%87%E6%AE%B5%E5%8F%8A%E7%BB%86%E8%8F%8C%E6%B1%A1%E6%9F%93/</link>
       <pubDate>Fri, 18 Jun 2021 09:23:03 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/%E5%9F%BA%E5%9B%A0%E7%BB%84gapclose%E5%8E%BB%E9%99%A4%E7%9F%AD%E7%89%87%E6%AE%B5%E5%8F%8A%E7%BB%86%E8%8F%8C%E6%B1%A1%E6%9F%93/</guid>
+      <guid>http://localhost:1313/post/%E5%9F%BA%E5%9B%A0%E7%BB%84%E7%BB%84%E8%A3%85%E5%8F%8A%E8%BF%87%E6%BB%A42gapclose%E5%8E%BB%E9%99%A4%E7%9F%AD%E7%89%87%E6%AE%B5%E5%8F%8A%E7%BB%86%E8%8F%8C%E6%B1%A1%E6%9F%93/</guid>
       <description>Tips： # 仅供 IEMB-1 用户参考。 # 进入登陆服务器页面后，所有命令可直接使用复制粘贴使用。 # 已通过基因组组装软件（如SPAdes或Megahit等</description>
     </item>
     
     <item>
-      <title>基因组组装评估及端粒统计</title>
-      <link>http://localhost:1313/post/%E5%9F%BA%E5%9B%A0%E7%BB%84%E7%BB%84%E8%A3%85%E8%AF%84%E4%BC%B0%E5%8F%8A%E7%AB%AF%E7%B2%92%E7%BB%9F%E8%AE%A1/</link>
+      <title>基因组评估（1）：基因组组装评估及端粒统计</title>
+      <link>http://localhost:1313/post/%E5%9F%BA%E5%9B%A0%E7%BB%84%E8%AF%84%E4%BC%B01%E5%9F%BA%E5%9B%A0%E7%BB%84%E7%BB%84%E8%A3%85%E8%AF%84%E4%BC%B0%E5%8F%8A%E7%AB%AF%E7%B2%92%E7%BB%9F%E8%AE%A1/</link>
       <pubDate>Wed, 16 Jun 2021 21:06:57 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/%E5%9F%BA%E5%9B%A0%E7%BB%84%E7%BB%84%E8%A3%85%E8%AF%84%E4%BC%B0%E5%8F%8A%E7%AB%AF%E7%B2%92%E7%BB%9F%E8%AE%A1/</guid>
+      <guid>http://localhost:1313/post/%E5%9F%BA%E5%9B%A0%E7%BB%84%E8%AF%84%E4%BC%B01%E5%9F%BA%E5%9B%A0%E7%BB%84%E7%BB%84%E8%A3%85%E8%AF%84%E4%BC%B0%E5%8F%8A%E7%AB%AF%E7%B2%92%E7%BB%9F%E8%AE%A1/</guid>
       <description>Tips： # 仅供 IEMB-1 用户参考。 # 进入登陆服务器页面后，所有命令可直接使用复制粘贴使用。 1. 对组装基因组进行Quast评估及端粒统计 1 2 3 4 5 6 7</description>
     </item>
     
     <item>
-      <title>基因家族扩张基因GO富集</title>
-      <link>http://localhost:1313/post/%E5%9F%BA%E5%9B%A0%E5%AE%B6%E6%97%8F%E6%89%A9%E5%BC%A0%E5%9F%BA%E5%9B%A0go%E5%AF%8C%E9%9B%86/</link>
+      <title>基因家族扩张基因分析（1）：GO富集</title>
+      <link>http://localhost:1313/post/%E5%9F%BA%E5%9B%A0%E5%AE%B6%E6%97%8F%E6%89%A9%E5%BC%A0%E5%9F%BA%E5%9B%A0%E5%88%86%E6%9E%901go%E5%AF%8C%E9%9B%86/</link>
       <pubDate>Sat, 12 Jun 2021 01:09:59 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/%E5%9F%BA%E5%9B%A0%E5%AE%B6%E6%97%8F%E6%89%A9%E5%BC%A0%E5%9F%BA%E5%9B%A0go%E5%AF%8C%E9%9B%86/</guid>
+      <guid>http://localhost:1313/post/%E5%9F%BA%E5%9B%A0%E5%AE%B6%E6%97%8F%E6%89%A9%E5%BC%A0%E5%9F%BA%E5%9B%A0%E5%88%86%E6%9E%901go%E5%AF%8C%E9%9B%86/</guid>
       <description>参考教程： https://zhuanlan.zhihu.com/p/166080842 https://www.jianshu.com/p/146093c91e2b https://blog.csdn.net/weixin_43569478/article/details/83744242 https://www.jianshu.com/p/e133ab3169fa Tips： # 仅供 IEMB-1 用户参考。 # 进入登陆服务器页面后，所有命令可直接使用复制粘贴使用。 # 默认已完成目标物种的intrepro</description>
     </item>
     
