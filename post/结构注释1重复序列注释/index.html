@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>基因组组装及过滤（5）：二代数据组装基因组去冗余 - Chao</title>
+  <title>基因组结构注释（1）：重复序列注释 - Chao</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -26,7 +26,7 @@
 <meta name="generator" content="Hugo 0.83.1 with theme even" />
 
 
-<link rel="canonical" href="http://localhost:1313/post/%E5%9F%BA%E5%9B%A0%E7%BB%84%E7%BB%84%E8%A3%85%E5%8F%8A%E8%BF%87%E6%BB%A45%E4%BA%8C%E4%BB%A3%E6%95%B0%E6%8D%AE%E7%BB%84%E8%A3%85%E5%9F%BA%E5%9B%A0%E7%BB%84%E5%8E%BB%E5%86%97%E4%BD%99/" />
+<link rel="canonical" href="http://localhost:1313/post/%E7%BB%93%E6%9E%84%E6%B3%A8%E9%87%8A1%E9%87%8D%E5%A4%8D%E5%BA%8F%E5%88%97%E6%B3%A8%E9%87%8A/" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -39,20 +39,20 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 
 
-<meta property="og:title" content="基因组组装及过滤（5）：二代数据组装基因组去冗余" />
+<meta property="og:title" content="基因组结构注释（1）：重复序列注释" />
 <meta property="og:description" content="Tips： # 仅供 IEMB-1 用户参考。 # 进入登陆服务器页面后，所有命令可直接使用复制粘贴使用。 # 不要修改脚本生成文件的文件名，可能会导致脚本无法识别文" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/post/%E5%9F%BA%E5%9B%A0%E7%BB%84%E7%BB%84%E8%A3%85%E5%8F%8A%E8%BF%87%E6%BB%A45%E4%BA%8C%E4%BB%A3%E6%95%B0%E6%8D%AE%E7%BB%84%E8%A3%85%E5%9F%BA%E5%9B%A0%E7%BB%84%E5%8E%BB%E5%86%97%E4%BD%99/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2021-07-06T12:16:52&#43;08:00" />
-<meta property="article:modified_time" content="2021-07-06T12:16:52&#43;08:00" />
+<meta property="og:url" content="http://localhost:1313/post/%E7%BB%93%E6%9E%84%E6%B3%A8%E9%87%8A1%E9%87%8D%E5%A4%8D%E5%BA%8F%E5%88%97%E6%B3%A8%E9%87%8A/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2021-07-05T20:21:46&#43;08:00" />
+<meta property="article:modified_time" content="2021-07-05T20:21:46&#43;08:00" />
 
 
-<meta itemprop="name" content="基因组组装及过滤（5）：二代数据组装基因组去冗余">
-<meta itemprop="description" content="Tips： # 仅供 IEMB-1 用户参考。 # 进入登陆服务器页面后，所有命令可直接使用复制粘贴使用。 # 不要修改脚本生成文件的文件名，可能会导致脚本无法识别文"><meta itemprop="datePublished" content="2021-07-06T12:16:52&#43;08:00" />
-<meta itemprop="dateModified" content="2021-07-06T12:16:52&#43;08:00" />
-<meta itemprop="wordCount" content="396">
-<meta itemprop="keywords" content="去除冗余序列," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="基因组组装及过滤（5）：二代数据组装基因组去冗余"/>
+<meta itemprop="name" content="基因组结构注释（1）：重复序列注释">
+<meta itemprop="description" content="Tips： # 仅供 IEMB-1 用户参考。 # 进入登陆服务器页面后，所有命令可直接使用复制粘贴使用。 # 不要修改脚本生成文件的文件名，可能会导致脚本无法识别文"><meta itemprop="datePublished" content="2021-07-05T20:21:46&#43;08:00" />
+<meta itemprop="dateModified" content="2021-07-05T20:21:46&#43;08:00" />
+<meta itemprop="wordCount" content="690">
+<meta itemprop="keywords" content="重复序列注释," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="基因组结构注释（1）：重复序列注释"/>
 <meta name="twitter:description" content="Tips： # 仅供 IEMB-1 用户参考。 # 进入登陆服务器页面后，所有命令可直接使用复制粘贴使用。 # 不要修改脚本生成文件的文件名，可能会导致脚本无法识别文"/>
 
 <!--[if lte IE 9]>
@@ -126,12 +126,12 @@
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">基因组组装及过滤（5）：二代数据组装基因组去冗余</h1>
+      <h1 class="post-title">基因组结构注释（1）：重复序列注释</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 2021-07-06 </span>
+        <span class="post-time"> 2021-07-05 </span>
         <div class="post-category">
-            <a href="/categories/%E5%9F%BA%E5%9B%A0%E7%BB%84%E7%BB%84%E8%A3%85%E5%8F%8A%E8%BF%87%E6%BB%A4/"> 基因组组装及过滤 </a>
+            <a href="/categories/%E7%BB%93%E6%9E%84%E6%B3%A8%E9%87%8A/"> 结构注释 </a>
             </div>
         <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> times read </span>
       </div>
@@ -147,7 +147,7 @@
         <li>
           <ul>
             <li><a href="#tips">Tips：</a></li>
-            <li><a href="#1使用redundans去除基因组冗余序列">1.	使用<code>redundans</code>去除基因组冗余序列</a></li>
+            <li><a href="#1使用repeatmodeler和repeatmasker注释基因组重复序列">1.	使用<code>RepeatModeler</code>和<code>RepeatMasker</code>注释基因组重复序列</a></li>
           </ul>
         </li>
       </ul>
@@ -161,8 +161,10 @@
 <p># 仅供 <strong>IEMB-1</strong> 用户参考。</p>
 <p># 进入<strong>登陆服务器页面</strong>后，所有命令可直接使用复制粘贴使用。</p>
 <p># 不要修改脚本生成文件的文件名，可能会导致脚本无法识别文件的问题。</p>
-<h3 id="1使用redundans去除基因组冗余序列">1.	使用<code>redundans</code>去除基因组冗余序列</h3>
-<p><code>redundans</code>更适用于二代测序数据组装的基因组，如果是三代测序数据组装的基因组，可以尝试使用<code>purge_dups</code>去除冗余序列。</p>
+<h3 id="1使用repeatmodeler和repeatmasker注释基因组重复序列">1.	使用<code>RepeatModeler</code>和<code>RepeatMasker</code>注释基因组重复序列</h3>
+<p>完成基因组的组装及过滤之后，接下来要进行的就是基因组的注释了。</p>
+<p>基因组的注释分为结构注释和功能注释两大部分。先通过结构注释获取基因、蛋白序列，再通过功能注释获取这些基因、蛋白序列所对应的功能。</p>
+<p>首先对基因组中的重复结构进行注释，为接下来的分析去除重复序列的干扰。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -173,16 +175,20 @@
 </span><span class="lnt">6
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="c1"># 以&#39;contigs.fasta&#39;基因组文件为例</span>
-ln -s yourgenome.fasta ./
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="c1"># 以&#39;contig.fasta&#39;基因组文件为例</span>
+ln -s contig.fasta ./
 
-<span class="c1"># 设置判定为序列的阈值，以相似度阈值为90%，序列重叠区域比例的阈值为85%为例</span>
+<span class="c1"># 以&#39;ciliate&#39;作为中间文件的前缀</span>
 <span class="c1"># 运行脚本</span>
-/apps/users/andrew/littletools/assembly_redundans.sh contigs.fasta 0.9 0.85
+/apps/users/andrew/littletools/strucanno/assembly_Repeatanno.sh contig.fasta ciliate
 </code></pre></td></tr></table>
 </div>
-</div><p>脚本运行完毕，结果储存在<code>identity0.9_overlap0.85</code>文件夹中，可以选取<code>scaffolds.reduced.fa</code>做为去除冗余后的基因组版本。</p>
-<p>做完这一步，常规的基因组过滤步骤就完成了。可以将这一版的基因组作为最终版本，再次进行基因组评估，接下来就可以开始基因组的注释分析了。</p>
+</div><p>脚本运行完毕后工作目录中会产生3个新的文件夹，分别是<code>01.RepeatModeler</code>，<code>02.RepeatMasker</code>，<code>03.RepeatMasker_soft</code>。</p>
+<p>注释出所有的重复序列保存在<code>03.RepeatMasker_soft/contig.fasta.tbl</code>文件中。</p>
+<p>对重复序列的统计分类结果保存在<code>03.RepeatMasker_soft/contig.fasta.out</code>文件中。</p>
+<p>对重复序列的注释结果保存在<code>03.RepeatMasker_soft/contig.fasta.out.gff</code>文件中。</p>
+<p>对重复序列进行软屏蔽后的基因组保存在<code>03.RepeatMasker_soft/contig.fasta.masked</code>文件中。</p>
+<p>后续的一些分析就可使用软屏蔽后的<code>03.RepeatMasker_soft/contig.fasta.masked</code>来进行了。</p>
 
     </div>
 
@@ -194,7 +200,7 @@ ln -s yourgenome.fasta ./
   <p class="copyright-item">
     <span class="item-title">LastMod</span>
     <span class="item-content">
-        2021-07-06
+        2021-07-05
         
     </span>
   </p>
@@ -203,12 +209,16 @@ ln -s yourgenome.fasta ./
 </div>
 <footer class="post-footer">
       <div class="post-tags">
-          <a href="/tags/%E5%8E%BB%E9%99%A4%E5%86%97%E4%BD%99%E5%BA%8F%E5%88%97/">去除冗余序列</a>
+          <a href="/tags/%E9%87%8D%E5%A4%8D%E5%BA%8F%E5%88%97%E6%B3%A8%E9%87%8A/">重复序列注释</a>
           </div>
       <nav class="post-nav">
-        
-        <a class="next" href="/post/%E7%BB%93%E6%9E%84%E6%B3%A8%E9%87%8A1%E9%87%8D%E5%A4%8D%E5%BA%8F%E5%88%97%E6%B3%A8%E9%87%8A/">
-            <span class="next-text nav-default">基因组结构注释（1）：重复序列注释</span>
+        <a class="prev" href="/post/%E5%9F%BA%E5%9B%A0%E7%BB%84%E7%BB%84%E8%A3%85%E5%8F%8A%E8%BF%87%E6%BB%A45%E4%BA%8C%E4%BB%A3%E6%95%B0%E6%8D%AE%E7%BB%84%E8%A3%85%E5%9F%BA%E5%9B%A0%E7%BB%84%E5%8E%BB%E5%86%97%E4%BD%99/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">基因组组装及过滤（5）：二代数据组装基因组去冗余</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        <a class="next" href="/post/%E5%9F%BA%E5%9B%A0%E7%BB%84%E7%BB%84%E8%A3%85%E5%8F%8A%E8%BF%87%E6%BB%A44%E7%BB%93%E5%90%88%E7%AB%AF%E7%B2%92%E4%BF%A1%E6%81%AF%E8%BF%87%E6%BB%A4%E7%BA%BF%E7%B2%92%E4%BD%93%E7%BB%86%E8%8F%8C%E9%AB%98gc%E4%BD%8Edepth%E7%9A%84%E5%BA%8F%E5%88%97/">
+            <span class="next-text nav-default">基因组组装及过滤（4）：结合端粒信息过滤线粒体、细菌、高GC、低depth的序列</span>
             <span class="next-text nav-mobile">Next</span>
             <i class="iconfont icon-right"></i>
           </a>
